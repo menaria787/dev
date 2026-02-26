@@ -34,7 +34,7 @@ pipeline {
             fi
 
             # Run new container
-            echo "Starting new container..."
+            echo "Starting new container............."
             docker run -d --name todoapp -p 80:3000 menaria787/todoapp:latest
         '''
     }
